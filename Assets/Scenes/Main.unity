@@ -561,7 +561,6 @@ GameObject:
   - component: {fileID: 59295642}
   - component: {fileID: 59295641}
   - component: {fileID: 59295643}
-  - component: {fileID: 59295644}
   - component: {fileID: 59295645}
   m_Layer: 0
   m_Name: NPC
@@ -631,7 +630,7 @@ Transform:
   m_GameObject: {fileID: 59295640}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7, y: -1.13, z: 0}
+  m_LocalPosition: {x: -2.7, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -652,6 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1897508134}
+  buttonControl: {fileID: 1897508130}
   maxtime: 15
   time: 15
   Hp: 5
@@ -662,22 +662,6 @@ MonoBehaviour:
   - {fileID: 1843347969, guid: 463683a0e19f186428b4f10c28bd697a, type: 3}
   timerSlider: {fileID: 6110086}
   timerstop: 0
---- !u!111 &59295644
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59295640}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: e3111782a52a9e2458fc4400aaeb133d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &59295645
 Animator:
   serializedVersion: 5

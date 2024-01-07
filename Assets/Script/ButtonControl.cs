@@ -17,14 +17,14 @@ public class ButtonControl : MonoBehaviour
         {
             Time.timeScale = 1;
             isPause = false;
-            nPCInf.timerstop = true;
+            //nPCInf.timerstop = false;
             PausePanel.SetActive(isPause);
         }
         else
         {
             Time.timeScale = 0;
             isPause = true;
-            nPCInf.timerstop = true;
+            //nPCInf.timerstop = true;
             PausePanel.SetActive(isPause);
         }
     }

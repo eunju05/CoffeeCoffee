@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class NPCInf : MonoBehaviour
 {
     public GameManager gameManager;
+    public ButtonControl buttonControl;
+
     public float maxtime;
     public float time;
     public float Hp;
@@ -33,6 +35,7 @@ public class NPCInf : MonoBehaviour
 
     private void Update()
     {
+        timerstop = buttonControl.isPause;
         if (timerstop == false)
         {
             time -= Time.deltaTime;
